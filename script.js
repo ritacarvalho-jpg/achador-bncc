@@ -1,12 +1,7 @@
-const state = {
-  data: [],
-  filtered: []
-};
+const input = document.getElementById('search');
+const results = document.getElementById('results');
 
-const elements = {
-  searchInput: document.getElementById('searchInput'),
-  results: document.getElementById('results')
-};
+let dados = [];
 
 function normalize(text) {
   return (text || '')
@@ -15,53 +10,43 @@ function normalize(text) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-function renderResults() {
-  elements.results.innerHTML = '';
+function render(lista) {
+  results.innerHTML = '';
 
-  if (!state.filtered.length) {
-    elements.results.innerHTML = '<p>Nenhum resultado encontrado</p>';
+  if (!lista.length) {
+    results.innerHTML = '<p>Nenhum resultado</p>';
     return;
   }
 
-  state.filtered.forEach(item => {
+  lista.forEach(item => {
     const div = document.createElement('div');
-    div.style.marginBottom = '10px';
-
+    div.className = 'item';
     div.innerHTML = `
       <strong>${item.codigo}</strong> - ${item.ano} - ${item.componente}<br>
       ${item.texto}
     `;
-
-    elements.results.appendChild(div);
+    results.appendChild(div);
   });
 }
 
-function filterData() {
-  const search = normalize(elements.searchInput.value);
+input.addEventListener('input', () => {
+  const busca = normalize(input.value);
 
-  state.filtered = state.data.filter(item =>
-    normalize(item.texto).includes(search) ||
-    normalize(item.codigo).includes(search) ||
-    normalize(item.componente).includes(search)
+  const filtrado = dados.filter(item =>
+    normalize(item.codigo).includes(busca) ||
+    normalize(item.texto).includes(busca) ||
+    normalize(item.componente).includes(busca)
   );
 
-  renderResults();
-}
+  render(filtrado);
+});
 
-function init() {
-  fetch('dados.json')
-    .then(res => res.json())
-    .then(data => {
-      state.data = data;
-      state.filtered = data;
-      renderResults();
-    })
-    .catch(err => {
-      console.error(err);
-      elements.results.innerHTML = 'Erro ao carregar dados';
-    });
-
-  elements.searchInput.addEventListener('input', filterData);
-}
-
-init();
+fetch('dados.json')
+  .then(res => res.json())
+  .then(data => {
+    dados = data;
+    render(dados);
+  })
+  .catch(() => {
+    results.innerHTML = 'Erro ao carregar dados';
+  });
