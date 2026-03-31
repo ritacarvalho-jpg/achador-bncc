@@ -66,3 +66,4 @@ fetch('dados.json')
   .catch(error => {
     console.error('Erro ao carregar dados:', error);
   });
+init();
