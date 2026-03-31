@@ -5,13 +5,11 @@ const state = {
 
 const elements = {
   searchInput: document.getElementById('searchInput'),
-  results: document.getElementById('results'),
-  resultsCount: document.getElementById('resultsCount'),
-  noResultsMessage: document.getElementById('noResultsMessage')
+  results: document.getElementById('results')
 };
 
 function normalize(text) {
-  return text
+  return (text || '')
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
@@ -20,23 +18,18 @@ function normalize(text) {
 function renderResults() {
   elements.results.innerHTML = '';
 
-  elements.resultsCount.textContent = `${state.filtered.length} resultados encontrados`;
-
-  if (state.filtered.length === 0) {
-    elements.noResultsMessage.style.display = 'block';
+  if (!state.filtered.length) {
+    elements.results.innerHTML = '<p>Nenhum resultado encontrado</p>';
     return;
-  } else {
-    elements.noResultsMessage.style.display = 'none';
   }
 
   state.filtered.forEach(item => {
     const div = document.createElement('div');
-    div.className = 'card';
+    div.style.marginBottom = '10px';
 
     div.innerHTML = `
-      <strong>${item.codigo}</strong><br>
-      <small>${item.ano} • ${item.componente}</small>
-      <p>${item.texto}</p>
+      <strong>${item.codigo}</strong> - ${item.ano} - ${item.componente}<br>
+      ${item.texto}
     `;
 
     elements.results.appendChild(div);
@@ -48,22 +41,27 @@ function filterData() {
 
   state.filtered = state.data.filter(item =>
     normalize(item.texto).includes(search) ||
-    normalize(item.codigo).includes(search)
+    normalize(item.codigo).includes(search) ||
+    normalize(item.componente).includes(search)
   );
 
   renderResults();
 }
 
-elements.searchInput.addEventListener('input', filterData);
+function init() {
+  fetch('dados.json')
+    .then(res => res.json())
+    .then(data => {
+      state.data = data;
+      state.filtered = data;
+      renderResults();
+    })
+    .catch(err => {
+      console.error(err);
+      elements.results.innerHTML = 'Erro ao carregar dados';
+    });
 
-fetch('dados.json')
-  .then(response => response.json())
-  .then(data => {
-    state.data = data;
-    state.filtered = data;
-    renderResults();
-  })
-  .catch(error => {
-    console.error('Erro ao carregar dados:', error);
-  });
+  elements.searchInput.addEventListener('input', filterData);
+}
+
 init();
