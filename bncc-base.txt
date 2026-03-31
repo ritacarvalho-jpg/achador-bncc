@@ -47,16 +47,30 @@ BASE BRUTA DA BNCC
 (EF01LP03) Observar escritas convencionais, comparando-as às suas produções escritas, percebendo semelhanças e diferenças.
 (EF02LP01) Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em
 substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.
-
 (EF12LP03) Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação.
-
 (EF01LP04) Distinguir as letras do alfabeto de outros sinais gráficos.
-
-
 (EF01LP05) Reconhecer o sistema de escrita alfabética como representação dos sons da fala.
-
-
 (EF01LP06) Segmentar oralmente palavras em sílabas.
 (EF02LP02) Segmentar palavras em sílabas e remover e substituir sílabas iniciais, mediais ou finais para criar novas palavras.
 (EF01LP07) Identificar fonemas e sua representação por letras.
 (EF02LP03) Ler e escrever palavras com correspondências regulares diretas entre letras e fonemas (f, v, t, d, p, b) e correspondências regulares contextuais (c e q; e e o, em posição átona em final de palavra).
+(EF01LP08) Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita.
+(EF02LP04) Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, identificando que existem vogais em todas as sílabas.
+(EF01LP09) Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas iniciais.
+(EF02LP05) Ler e escrever corretamente palavras com marcas de nasalidade (til, m, n).
+(EF01LP10) Nomear as letras do alfabeto e recitá-lo na ordem das letras.
+(EF02LP06) Perceber o princípio acrofônico que opera nos nomes das letras do alfabeto.
+(EF01LP11) Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas.
+(EF02LP07) Escrever palavras, frases, textos curtos nas formas imprensa e cursiva.
+(EF01LP12) Reconhecer a separação das palavras, na escrita, por espaços em branco.
+(EF02LP08) Segmentar corretamente as palavras ao escrever frases e textos.
+(EF01LP13) Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas mediais e finais.
+(EF01LP14) Identificar outros sinais no texto além das letras, como pontos finais, de interrogação e exclamação e seus efeitos na entonação.
+(EF02LP09) Usar adequadamente ponto final, ponto de interrogação e ponto de exclamação.
+(EF01LP15) Agrupar palavras pelo critério de aproximação de significado (sinonímia) e
+separar palavras pelo critério de oposição de significado (antonímia).
+(EF02LP10) Identificar sinônimos de palavras de texto lido, determinando a diferença de sentido entre eles, e formar antônimos de palavras encontradas em texto lido pelo acréscimo do prefixo de negação in-/im-.
+(EF02LP11) Formar o aumentativo e o diminutivo de palavras com os sufixos -ão e
+-inho/-zinho.
+
+
