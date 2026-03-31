@@ -122,9 +122,6 @@ ou impressos), a formatação e diagramação específica de cada um desses gên
 (EF02LP17) Identificar e reproduzir, em relatos de experiências pessoais, a sequência dos fatos, utilizando expressões que marquem
 a passagem do tempo (“antes”, “depois”, “ontem”, “hoje”, “amanhã”, “outro dia”, “antigamente”, “há muito tempo” etc.), e o nível de informatividade necessário.
 
-
-
-
 (EF12LP08) Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.
 (EF12LP09) Ler e compreender, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto do texto.
 (EF12LP10) Ler e compreender, em colaboração com os colegas e com a ajuda do professor, cartazes, avisos, folhetos, regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto.
@@ -163,11 +160,6 @@ a situação comunicativa e o tema/assunto/ finalidade do texto.
 (EF01LP24) Identificar e reproduzir, em enunciados de tarefas escolares, diagramas, entrevistas, curiosidades, digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.
 (EF02LP25) Identificar e reproduzir, em relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.
 
-
-
-
-
-
 (EF02LP26) Ler e compreender, com certa autonomia, textos literários, de gêneros variados, desenvolvendo o gosto pela leitura.
 
 
@@ -181,11 +173,7 @@ a situação comunicativa e o tema/assunto/ finalidade do texto.
 (EF01LP26) Identificar elementos de uma narrativa lida ou escutada, incluindo personagens, enredo, tempo e espaço.
 (EF02LP28) Reconhecer o conflito gerador de uma narrativa ficcional e sua resolução, além de palavras, expressões e frases que caracterizam personagens e ambientes.
 
-
 (EF12LP19) Reconhecer, em textos versificados, rimas, sonoridades, jogos de palavras, palavras, expressões, comparações, relacionando-as com sensações e associações.
-
-
-
 
 (EF02LP29) Observar, em poemas visuais, o formato do texto na página, as ilustrações e outros efeitos visuais.
 
@@ -324,19 +312,118 @@ a formatação própria desses textos (relatos de
 acontecimentos, expressão de vivências, emoções, opiniões ou críticas) e a diagramação específica dos textos desses gêneros (data, saudação, corpo
 do texto, despedida, assinatura).
 
-
-
-
-
-
-
-
 (EF03LP18) Ler e compreender, com autonomia, cartas dirigidas a veículos da mídia impressa
 ou digital (cartas de leitor e de reclamação a jornais, revistas) e notícias, dentre outros gêneros do campo jornalístico, de acordo com as convenções do gênero carta e considerando
 a situação comunicativa e o tema/assunto do texto.
 (EF04LP14) Identificar, em notícias, fatos, participantes, local e momento/tempo da ocorrência do fato noticiado.
 (EF05LP15) Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando
 a situação comunicativa e o tema/assunto do texto.
+
+(EF03LP19) Identificar e discutir o propósito do uso de recursos de persuasão (cores, imagens, escolha de palavras, jogo de palavras, tamanho de letras) em textos publicitários e de propaganda, como elementos de convencimento.
+(EF04LP15) Distinguir fatos de opiniões/sugestões em textos (informativos, jornalísticos, publicitários etc.).
+(EF05LP16) Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê.
+(EF03LP20) Produzir cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), dentre outros gêneros do campo
+político-cidadão, com opiniões e críticas, de acordo com as convenções do gênero carta
+e considerando a situação comunicativa e o tema/assunto do texto.
+(EF04LP16) Produzir notícias sobre fatos ocorridos no universo escolar, digitais ou impressas, para o jornal da escola, noticiando os fatos
+e seus atores e comentando decorrências, de acordo com as convenções do gênero notícia e considerando a situação comunicativa e o tema/assunto do texto.
+(EF05LP17) Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de
+informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação
+comunicativa e o tema/assunto do texto.
+(EF03LP21) Produzir anúncios publicitários, textos de campanhas de conscientização destinados ao público infantil, observando os recursos de persuasão utilizados nos textos publicitários e de propaganda (cores, imagens, slogan, escolha de palavras, jogo de palavras, tamanho e tipo de letras, diagramação).
+
+
+(EF35LP15) Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto.
+(EF03LP22) Planejar e produzir, em colaboração com os colegas, telejornal para público infantil com algumas notícias e textos de campanhas que possam ser repassados oralmente ou em meio digital, em áudio ou
+vídeo, considerando a situação comunicativa, a organização específica da fala nesses gêneros e o tema/assunto/ finalidade dos textos.
+(EF04LP17) Produzir jornais radiofônicos ou televisivos e entrevistas veiculadas
+em rádio, TV e na internet, orientando-se por roteiro ou texto e demonstrando conhecimento dos gêneros jornal falado/televisivo e entrevista.
+(EF05LP18) Roteirizar, produzir e editar vídeo para vlogs argumentativos sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/ assunto/finalidade do texto.
+
+
+
+
+(EF05LP19) Argumentar oralmente sobre acontecimentos de interesse social, com base em conhecimentos sobre fatos divulgados em TV, rádio, mídia impressa e digital, respeitando pontos de vista diferentes.
+(EF35LP16) Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.
+(EF03LP23) Analisar o uso de adjetivos em cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou
+revistas), digitais ou impressas.
+
+
+(EF05LP20) Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos.
+
+
+(EF04LP18) Analisar o padrão entonacional e a expressão facial e corporal de âncoras de jornais radiofônicos
+ou televisivos e de entrevistadores/entrevistados.
+(EF05LP21) Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos.
+
+(EF03LP24) Ler/ouvir e compreender, com autonomia, relatos de observações e
+de pesquisas em fontes de informações, considerando a situação comunicativa e o tema/assunto do texto.
+(EF04LP19) Ler e
+compreender textos expositivos de divulgação científica para crianças, considerando a situação comunicativa e o tema/ assunto do texto.
+(EF05LP22) Ler e compreender verbetes de dicionário, identificando a estrutura,
+as informações gramaticais (significado de abreviaturas) e as informações semânticas.
+
+
+(EF04LP20) Reconhecer a função de gráficos, diagramas e tabelas em textos, como forma de apresentação de dados e informações.
+(EF05LP23) Comparar informações apresentadas em gráficos ou tabelas.
+(EF35LP17) Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais.
+(EF03LP25) Planejar e produzir textos para
+apresentar resultados de observações e de pesquisas em fontes de informações, incluindo, quando pertinente, imagens, diagramas e gráficos ou tabelas simples, considerando a situação
+comunicativa e o tema/assunto do texto.
+(EF04LP21) Planejar e produzir textos sobre temas de interesse, com base em resultados de observações e pesquisas
+em fontes de informações impressas ou eletrônicas, incluindo, quando pertinente, imagens e gráficos ou tabelas simples, considerando a situação comunicativa e o tema/assunto do texto.
+(EF05LP24) Planejar e produzir texto sobre tema de interesse, organizando resultados de pesquisa em fontes de informação impressas ou digitais,
+incluindo imagens e gráficos ou tabelas, considerando a situação comunicativa e o tema/assunto do texto.
+
+
+(EF04LP22) Planejar e produzir, com certa autonomia, verbetes de enciclopédia infantil, digitais ou impressos, considerando a situação comunicativa e o tema/ assunto/finalidade do texto.
+(EF05LP25) Planejar e produzir, com certa autonomia, verbetes de dicionário, digitais ou impressos, considerando
+a situação comunicativa e o tema/assunto/finalidade do texto.
+
+(EF35LP18) Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.
+(EF35LP19) Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras.
+(EF35LP20) Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa.
+(EF03LP26) Identificar e reproduzir, em relatórios de observação e pesquisa, a formatação e diagramação específica desses gêneros (passos ou listas de itens, tabelas, ilustrações, gráficos, resumo dos resultados), inclusive em suas versões orais.
+
+
+(EF05LP26) Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas.
+
+
+(EF04LP23) Identificar e reproduzir, em verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica desse gênero (título do verbete, definição, detalhamento, curiosidades), considerando a
+situação comunicativa e o tema/ assunto/finalidade do texto.
+(EF05LP27) Utilizar, ao produzir o texto, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível adequado de informatividade.
+
+
+(EF04LP24) Identificar e reproduzir, em seu formato, tabelas, diagramas e gráficos em relatórios de observação e pesquisa, como forma de apresentação de dados e informações.
+
+
+
+(EF35LP21) Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.
+(EF35LP22) Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.
+(EF35LP23) Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido.
+(EF35LP24) Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.
+(EF35LP25) Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.
+(EF35LP26) Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.
+(EF35LP27) Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.
+(EF35LP28) Declamar poemas, com entonação, postura e interpretação adequadas.
+(EF03LP27) Recitar cordel e cantar repentes e emboladas, observando as rimas e obedecendo ao ritmo e à melodia.
+(EF04LP25) Representar cenas de textos dramáticos, reproduzindo as falas das personagens, de acordo com as rubricas de interpretação e movimento indicadas pelo autor.
+
+
+
+(EF35LP29) Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas.
+(EF35LP30) Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso.
+(EF35LP31) Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas.
+
+
+(EF04LP26) Observar, em poemas concretos, o formato, a distribuição e a diagramação das letras do texto na página.
+(EF05LP28) Observar, em ciberpoemas e minicontos infantis em mídia digital, os recursos multissemióticos presentes nesses textos digitais.
+
+
+(EF04LP27) Identificar, em textos dramáticos, marcadores das falas das personagens e de cena.
+
+
+
 
 
 
