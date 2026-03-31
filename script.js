@@ -208,3 +208,10 @@ elements.copyAllButton.addEventListener('click', copyAllResults);
 elements.results.addEventListener('click', handleResultButtons);
 
 loadData();
+
+
+ 
+  
+   
+ 
+
