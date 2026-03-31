@@ -1,116 +1,92 @@
 [
   {
-    "codigo": "EF15LP01",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP01",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam."
+    "texto": "Reconhecer que textos são lidos e escritos da esquerda para a direita e de cima para baixo da página."
   },
   {
-    "codigo": "EF15LP02",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF12LP01",
+    "ano": "1º e 2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas."
+    "texto": "Ler palavras novas com precisão na decodificação e, no caso de palavras de uso frequente, ler globalmente, por memorização."
   },
   {
-    "codigo": "EF15LP03",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF12LP02",
+    "ano": "1º e 2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Localizar informações explícitas em textos."
+    "texto": "Buscar, selecionar e ler, com mediação do professor, textos que circulam em meios impressos ou digitais."
   },
   {
-    "codigo": "EF15LP04",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP02",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos."
+    "texto": "Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética."
   },
   {
-    "codigo": "EF15LP05",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP03",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas."
+    "texto": "Observar escritas convencionais, comparando-as às suas produções."
   },
   {
-    "codigo": "EF15LP06",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF02LP01",
+    "ano": "2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Reler e revisar o texto produzido com a ajuda do professor e a colaboração dos colegas, para corrigi-lo e aprimorá-lo, fazendo cortes, acréscimos, reformulações, correções de ortografia e pontuação."
+    "texto": "Utilizar grafia correta, letras maiúsculas, segmentação e pontuação ao produzir textos."
   },
   {
-    "codigo": "EF15LP07",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF12LP03",
+    "ano": "1º e 2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Editar a versão final do texto, em colaboração com os colegas e com a ajuda do professor, ilustrando, quando for o caso, em suporte adequado, manual ou digital."
+    "texto": "Copiar textos breves, mantendo suas características gráficas."
   },
   {
-    "codigo": "EF15LP08",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP04",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Utilizar software, inclusive programas de edição de texto, para editar e publicar os textos produzidos, explorando os recursos multissemióticos disponíveis."
+    "texto": "Distinguir letras do alfabeto de outros sinais gráficos."
   },
   {
-    "codigo": "EF15LP09",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP05",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado."
+    "texto": "Reconhecer o sistema de escrita alfabética como representação dos sons da fala."
   },
   {
-    "codigo": "EF15LP10",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP06",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."
+    "texto": "Segmentar oralmente palavras em sílabas."
   },
   {
-    "codigo": "EF15LP11",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF02LP02",
+    "ano": "2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor."
+    "texto": "Segmentar palavras em sílabas e manipular sílabas para formar novas palavras."
   },
   {
-    "codigo": "EF15LP12",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP07",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz."
+    "texto": "Identificar fonemas e sua representação por letras."
   },
   {
-    "codigo": "EF15LP13",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF02LP03",
+    "ano": "2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.)."
+    "texto": "Ler e escrever palavras com correspondências regulares entre letras e fonemas."
   },
   {
-    "codigo": "EF15LP14",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF01LP08",
+    "ano": "1º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias)."
+    "texto": "Relacionar elementos sonoros com sua representação escrita."
   },
   {
-    "codigo": "EF15LP15",
-    "ano": "1º ao 5º ano",
+    "codigo": "EF02LP04",
+    "ano": "2º ano",
     "componente": "Língua Portuguesa",
-    "texto": "Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade."
-  },
-  {
-    "codigo": "EF15LP16",
-    "ano": "1º ao 5º ano",
-    "componente": "Língua Portuguesa",
-    "texto": "Ler e compreender, em colaboração com os colegas e com a ajuda do professor e, mais tarde, de maneira autônoma, textos narrativos de maior porte como contos (populares, de fadas, acumulativos, de assombração etc.) e crônicas."
-  },
-  {
-    "codigo": "EF15LP17",
-    "ano": "1º ao 5º ano",
-    "componente": "Língua Portuguesa",
-    "texto": "Apreciar poemas visuais e concretos, observando efeitos de sentido criados pelo formato do texto na página, distribuição e diagramação das letras, pelas ilustrações e por outros efeitos visuais."
-  },
-  {
-    "codigo": "EF15LP18",
-    "ano": "1º ao 5º ano",
-    "componente": "Língua Portuguesa",
-    "texto": "Relacionar texto com ilustrações e outros recursos gráficos."
-  },
-  {
-    "codigo": "EF15LP19",
-    "ano": "1º ao 5º ano",
-    "componente": "Língua Portuguesa",
-    "texto": "Recontar oralmente, com e sem apoio de imagem, textos literários lidos pelo professor."
+    "texto": "Ler e escrever palavras com diferentes estruturas silábicas."
   }
 ]
