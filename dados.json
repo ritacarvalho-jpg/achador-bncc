@@ -1,0 +1,452 @@
+[
+  {
+    "codigo": "EF05CI01",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras."
+  },
+  {
+    "codigo": "EF05CI02",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."
+  },
+  {
+    "codigo": "EF05CI03",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."
+  },
+  {
+    "codigo": "EF05CI04",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos."
+  },
+  {
+    "codigo": "EF05CI05",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana."
+  },
+  {
+    "codigo": "EF05CI06",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas."
+  },
+  {
+    "codigo": "EF05CI07",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Justificar a relação entre o funcionamento do sistema circulatório, a distribuição dos nutrientes pelo organismo e a eliminação dos resíduos produzidos."
+  },
+  {
+    "codigo": "EF05CI08",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Organizar um cardápio equilibrado com base nas características dos grupos alimentares (nutrientes e calorias) e nas necessidades individuais (atividades realizadas, idade, sexo etc.) para a manutenção da saúde do organismo."
+  },
+  {
+    "codigo": "EF05CI09",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Discutir a ocorrência de distúrbios nutricionais (como obesidade, subnutrição etc.) entre crianças e jovens a partir da análise de seus hábitos (tipos e quantidade de alimento ingerido, prática de atividade física etc.)."
+  },
+  {
+    "codigo": "EF05CI10",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Identificar algumas constelações no céu, com o apoio de recursos (como mapas celestes e aplicativos digitais, entre outros), e os períodos do ano em que elas são visíveis no início da noite."
+  },
+  {
+    "codigo": "EF05CI11",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra."
+  },
+  {
+    "codigo": "EF05CI12",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Concluir sobre a periodicidade das fases da Lua, com base na observação e no registro das formas aparentes da Lua no céu ao longo de, pelo menos, dois meses."
+  },
+  {
+    "codigo": "EF05CI13",
+    "ano": "5º ano",
+    "componente": "Ciências",
+    "texto": "Projetar e construir dispositivos para observação à distância (luneta, periscópio etc.), para observação ampliada de objetos (lupas, microscópios) ou para registro de imagens (máquinas fotográficas) e discutir usos sociais desses dispositivos."
+  },
+  {
+    "codigo": "EF05HI01",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Identificar os processos de formação das culturas e dos povos, relacionando-os com o espaço geográfico ocupado."
+  },
+  {
+    "codigo": "EF05HI02",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Identificar os mecanismos de organização do poder político com vistas à compreensão da ideia de Estado e/ou de outras formas de ordenação social."
+  },
+  {
+    "codigo": "EF05HI03",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Analisar o papel das culturas e das religiões na composição identitária dos povos antigos."
+  },
+  {
+    "codigo": "EF05HI04",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Associar a noção de cidadania com os princípios de respeito à diversidade, à pluralidade e aos direitos humanos."
+  },
+  {
+    "codigo": "EF05HI05",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Associar o conceito de cidadania à conquista de direitos dos povos e das sociedades, compreendendo-o como conquista histórica."
+  },
+  {
+    "codigo": "EF05HI06",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Comparar o uso de diferentes linguagens e tecnologias no processo de comunicação e avaliar os significados sociais, políticos e culturais atribuídos a elas."
+  },
+  {
+    "codigo": "EF05HI07",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Identificar os processos de produção, hierarquização e difusão dos marcos de memória e discutir a presença e/ou a ausência de diferentes grupos que compõem a sociedade na nomeação desses marcos de memória."
+  },
+  {
+    "codigo": "EF05HI08",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Identificar formas de marcação da passagem do tempo em distintas sociedades, incluindo os povos indígenas originários e os povos africanos."
+  },
+  {
+    "codigo": "EF05HI09",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Comparar pontos de vista sobre temas que impactam a vida cotidiana no tempo presente, por meio do acesso a diferentes fontes, incluindo orais."
+  },
+  {
+    "codigo": "EF05HI10",
+    "ano": "5º ano",
+    "componente": "História",
+    "texto": "Inventariar os patrimônios materiais e imateriais da humanidade e analisar mudanças e permanências desses patrimônios ao longo do tempo."
+  },
+  {
+    "codigo": "EF05GE01",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Descrever e analisar dinâmicas populacionais na Unidade da Federação em que vive, estabelecendo relações entre migrações e condições de infraestrutura."
+  },
+  {
+    "codigo": "EF05GE02",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar diferenças étnico-raciais e étnico-culturais e desigualdades sociais entre grupos em diferentes territórios."
+  },
+  {
+    "codigo": "EF05GE03",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar as formas e funções das cidades e analisar as mudanças sociais, econômicas e ambientais provocadas pelo seu crescimento."
+  },
+  {
+    "codigo": "EF05GE04",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Reconhecer as características da cidade e analisar as interações entre a cidade e o campo e entre cidades na rede urbana."
+  },
+  {
+    "codigo": "EF05GE05",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar e comparar as mudanças dos tipos de trabalho e desenvolvimento tecnológico na agropecuária, na indústria, no comércio e nos serviços."
+  },
+  {
+    "codigo": "EF05GE06",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar e comparar transformações dos meios de transporte e de comunicação."
+  },
+  {
+    "codigo": "EF05GE07",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar os diferentes tipos de energia utilizados na produção industrial, agrícola e extrativa e no cotidiano das populações."
+  },
+  {
+    "codigo": "EF05GE08",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Analisar transformações de paisagens nas cidades, comparando sequência de fotografias, fotografias aéreas e imagens de satélite de épocas diferentes."
+  },
+  {
+    "codigo": "EF05GE09",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Estabelecer conexões e hierarquias entre diferentes cidades, utilizando mapas temáticos e representações gráficas."
+  },
+  {
+    "codigo": "EF05GE10",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Reconhecer e comparar atributos da qualidade ambiental e algumas formas de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.)."
+  },
+  {
+    "codigo": "EF05GE11",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar e descrever problemas ambientais que ocorrem no entorno da escola e da residência (lixões, indústrias poluentes, destruição do patrimônio histórico etc.), propondo soluções (inclusive tecnológicas) para esses problemas."
+  },
+  {
+    "codigo": "EF05GE12",
+    "ano": "5º ano",
+    "componente": "Geografia",
+    "texto": "Identificar órgãos do poder público e canais de participação social responsáveis por buscar soluções para a melhoria da qualidade de vida (em áreas como meio ambiente, mobilidade, moradia e direito à cidade) e discutir as propostas implementadas por esses órgãos que afetam a comunidade em que vive."
+  },
+  {
+    "codigo": "EF05ER01",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Identificar e respeitar acontecimentos sagrados de diferentes culturas e tradições religiosas como recurso para preservar a memória."
+  },
+  {
+    "codigo": "EF05ER02",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Identificar mitos de criação em diferentes culturas e tradições religiosas."
+  },
+  {
+    "codigo": "EF05ER03",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Reconhecer funções e mensagens religiosas contidas nos mitos de criação (concepções de mundo, natureza, ser humano, divindades, vida e morte)."
+  },
+  {
+    "codigo": "EF05ER04",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Reconhecer a importância da tradição oral para preservar memórias e acontecimentos religiosos."
+  },
+  {
+    "codigo": "EF05ER05",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Identificar elementos da tradição oral nas culturas e religiosidades indígenas, afro-brasileiras, ciganas, entre outras."
+  },
+  {
+    "codigo": "EF05ER06",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Identificar o papel dos sábios e anciãos na comunicação e preservação da tradição oral."
+  },
+  {
+    "codigo": "EF05ER07",
+    "ano": "5º ano",
+    "componente": "Ensino Religioso",
+    "texto": "Reconhecer, em textos orais, ensinamentos relacionados a modos de ser e viver."
+  },
+  {
+    "codigo": "EF35EF01",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Experimentar e fruir brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e recriá-los, valorizando a importância desse patrimônio histórico cultural."
+  },
+  {
+    "codigo": "EF35EF02",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Planejar e utilizar estratégias para possibilitar a participação segura de todos os alunos em brincadeiras e jogos populares do Brasil e de matriz indígena e africana."
+  },
+  {
+    "codigo": "EF35EF03",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Descrever, por meio de múltiplas linguagens (corporal, oral, escrita, audiovisual), as brincadeiras e os jogos populares do Brasil e de matriz indígena e africana, explicando suas características e a importância desse patrimônio histórico cultural na preservação das diferentes culturas."
+  },
+  {
+    "codigo": "EF35EF04",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Recriar, individual e coletivamente, e experimentar, na escola e fora dela, brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e demais práticas corporais tematizadas na escola, adequando-as aos espaços públicos disponíveis."
+  },
+  {
+    "codigo": "EF35EF05",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Experimentar e fruir diversos tipos de esportes de campo e taco, rede/parede e invasão, identificando seus elementos comuns e criando estratégias individuais e coletivas básicas para sua execução, prezando pelo trabalho coletivo e pelo protagonismo."
+  },
+  {
+    "codigo": "EF35EF06",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Diferenciar os conceitos de jogo e esporte, identificando as características que os constituem na contemporaneidade e suas manifestações (profissional e comunitária/lazer)."
+  },
+  {
+    "codigo": "EF35EF07",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Experimentar e fruir, de forma coletiva, combinações de diferentes elementos da ginástica geral (equilíbrios, saltos, giros, rotações, acrobacias, com e sem materiais), propondo coreografias com diferentes temas do cotidiano."
+  },
+  {
+    "codigo": "EF35EF08",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Planejar e utilizar estratégias para resolver desafios na execução de elementos básicos de apresentações coletivas de ginástica geral, reconhecendo as potencialidades e os limites do corpo e adotando procedimentos de segurança."
+  },
+  {
+    "codigo": "EF35EF09",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Experimentar, recriar e fruir danças populares do Brasil e do mundo e danças de matriz indígena e africana, valorizando e respeitando os diferentes sentidos e significados dessas danças em suas culturas de origem."
+  },
+  {
+    "codigo": "EF35EF10",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Comparar e identificar os elementos constitutivos comuns e diferentes (ritmo, espaço, gestos) em danças populares do Brasil e do mundo e danças de matriz indígena e africana."
+  },
+  {
+    "codigo": "EF35EF11",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Formular e utilizar estratégias para a execução de elementos constitutivos das danças populares do Brasil e do mundo, e das danças de matriz indígena e africana."
+  },
+  {
+    "codigo": "EF35EF12",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Identificar situações de injustiça e preconceito geradas e/ou presentes no contexto das danças e demais práticas corporais e discutir alternativas para superá-las."
+  },
+  {
+    "codigo": "EF35EF13",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Experimentar, fruir e recriar diferentes lutas presentes no contexto comunitário e regional e lutas de matriz indígena e africana."
+  },
+  {
+    "codigo": "EF35EF14",
+    "ano": "3º ao 5º ano",
+    "componente": "Educação Física",
+    "texto": "Planejar e utilizar estratégias básicas das lutas do contexto comunitário e regional e lutas de matriz indígena e africana experimentadas, respeitando o colega como oponente e as normas de segurança."
+  },
+  {
+    "codigo": "EF15AR01",
+    "ano": "1º ao 5º ano",
+    "componente": "Arte",
+    "texto": "Identificar e apreciar formas distintas das artes visuais tradicionais e contemporâneas, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório imagético."
+  },
+  {
+    "codigo": "EF15AR02",
+    "ano": "1º ao 5º ano",
+    "componente": "Arte",
+    "texto": "Explorar e reconhecer elementos constitutivos das artes visuais (ponto, linha, forma, cor, espaço, movimento etc.)."
+  },
+  {
+    "codigo": "EF15AR03",
+    "ano": "1º ao 5º ano",
+    "componente": "Arte",
+    "texto": "Reconhecer e analisar a influência de distintas matrizes estéticas e culturais das artes visuais nas manifestações artísticas das culturas locais, regionais e nacionais."
+  },
+  {
+    "codigo": "EF15AR04",
+    "ano": "1º ao 5º ano",
+    "componente": "Arte",
+    "texto": "Experimentar diferentes formas de expressão artística (desenho, pintura, colagem, quadrinhos, dobradura, escultura, modelagem, instalação, vídeo, fotografia etc.), fazendo uso sustentável de materiais, instrumentos, recursos e técnicas convencionais e não convencionais."
+  },
+  {
+    "codigo": "EF05LP01",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares."
+  },
+  {
+    "codigo": "EF05LP02",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual."
+  },
+  {
+    "codigo": "EF05LP03",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Acentuar corretamente palavras oxítonas, paroxítonas e proparoxítonas."
+  },
+  {
+    "codigo": "EF05LP10",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "codigo": "EF05LP11",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "codigo": "EF05LP12",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."
+  },
+  {
+    "codigo": "EF05LP13",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo."
+  },
+  {
+    "codigo": "EF05LP15",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto."
+  },
+  {
+    "codigo": "EF05LP22",
+    "ano": "5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas."
+  },
+  {
+    "codigo": "EF35LP12",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema."
+  },
+  {
+    "codigo": "EF35LP13",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema."
+  },
+  {
+    "codigo": "EF35LP17",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais."
+  },
+  {
+    "codigo": "EF35LP18",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."
+  },
+  {
+    "codigo": "EF35LP21",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores."
+  },
+  {
+    "codigo": "EF35LP22",
+    "ano": "3º ao 5º ano",
+    "componente": "Língua Portuguesa",
+    "texto": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto."
+  }
+]
