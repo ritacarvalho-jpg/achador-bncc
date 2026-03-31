@@ -34,3 +34,29 @@ BASE BRUTA DA BNCC
 (EF15LP18) Relacionar texto com ilustrações e outros recursos gráficos.
 
 (EF15LP19) Recontar oralmente, com e sem apoio de imagem, textos literários lidos pelo professor.
+(EF01LP01) Reconhecer que textos são lidos e escritos da esquerda para a direita e de cima para baixo da página.
+
+
+(EF12LP01) Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.
+
+(EF12LP02) Buscar, selecionar e ler, com a mediação do professor (leitura compartilhada), textos que circulam em meios impressos ou digitais, de acordo com as necessidades e interesses.
+
+(EF01LP02) Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética – usando letras/grafemas que representem fonemas.
+
+
+(EF01LP03) Observar escritas convencionais, comparando-as às suas produções escritas, percebendo semelhanças e diferenças.
+(EF02LP01) Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em
+substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.
+
+(EF12LP03) Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação.
+
+(EF01LP04) Distinguir as letras do alfabeto de outros sinais gráficos.
+
+
+(EF01LP05) Reconhecer o sistema de escrita alfabética como representação dos sons da fala.
+
+
+(EF01LP06) Segmentar oralmente palavras em sílabas.
+(EF02LP02) Segmentar palavras em sílabas e remover e substituir sílabas iniciais, mediais ou finais para criar novas palavras.
+(EF01LP07) Identificar fonemas e sua representação por letras.
+(EF02LP03) Ler e escrever palavras com correspondências regulares diretas entre letras e fonemas (f, v, t, d, p, b) e correspondências regulares contextuais (c e q; e e o, em posição átona em final de palavra).
