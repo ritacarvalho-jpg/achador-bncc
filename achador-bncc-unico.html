@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achador BNCC</title>
+  <style>
+/* Estilo principal do Achador BNCC */
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-alt: #f1f4f8;
+  --text: #1f2937;
+  --muted: #5b6472;
+  --border: #d8dde6;
+  --primary: #1d4ed8;
+  --primary-dark: #163ea9;
+  --shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  --radius: 16px;
+  --radius-sm: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 32px 0 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f8fa 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.ad-slot,
+.search-panel,
+.control-bar,
+.result-card,
+.site-footer {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--muted);
+  background: repeating-linear-gradient(
+    135deg,
+    #ffffff,
+    #ffffff 12px,
+    #fafbfc 12px,
+    #fafbfc 24px
+  );
+}
+
+.ad-top,
+.ad-bottom {
+  min-height: 96px;
+  margin-top: 20px;
+  padding: 16px;
+}
+
+.ad-side {
+  min-height: 280px;
+  padding: 16px;
+  position: sticky;
+  top: 20px;
+}
+
+.search-panel {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) repeat(2, minmax(180px, 1fr)) auto;
+  gap: 14px;
+  align-items: end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field label {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text);
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: 3px solid rgba(29, 78, 216, 0.18);
+  outline-offset: 1px;
+}
+
+.field-search input {
+  font-size: 1rem;
+}
+
+.button {
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 1px solid var(--primary);
+  border-radius: 12px;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: #fff;
+  color: var(--text);
+}
+
+.button.secondary:hover {
+  background: var(--surface-alt);
+}
+
+.control-bar {
+  margin-top: 16px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.results-count {
+  font-weight: 700;
+}
+
+.content-layout {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 20px;
+  align-items: start;
+}
+
+.results-list {
+  display: grid;
+  gap: 16px;
+}
+
+.result-card {
+  padding: 18px;
+}
+
+.meta-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.code-badge {
+  background: rgba(29, 78, 216, 0.1);
+  border-color: rgba(29, 78, 216, 0.18);
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
+.skill-text {
+  margin: 0;
+  color: var(--text);
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.card-actions .button {
+  min-height: 42px;
+}
+
+.card-actions .button.secondary {
+  background: #fff;
+}
+
+.status-message {
+  padding: 20px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.site-footer {
+  margin: 28px auto 24px;
+  padding: 16px 20px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 920px) {
+  .search-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .field-search,
+  .field-button {
+    grid-column: 1 / -1;
+  }
+
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-column {
+    order: 2;
+  }
+
+  .ad-side {
+    position: static;
+    min-height: 140px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100% - 20px, 1120px);
+  }
+
+  .site-header {
+    padding-top: 24px;
+  }
+
+  .search-panel,
+  .control-bar,
+  .result-card,
+  .site-footer {
+    border-radius: 14px;
+  }
+
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .control-bar {
+    align-items: stretch;
+  }
+
+  .control-bar .button {
+    width: 100%;
+  }
+
+  .card-actions {
+    flex-direction: column;
+  }
+
+  .card-actions .button {
+    width: 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Achador BNCC</h1>
+      <p class="subtitle">Busca rápida de habilidades da BNCC com filtros simples, cópia imediata e visual limpo.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="ad-slot ad-top" aria-label="Espaço para anúncio horizontal">
+      <p>Espaço para anúncio horizontal</p>
+    </section>
+
+    <section class="search-panel" aria-label="Área de busca">
+      <div class="search-grid">
+        <div class="field field-search">
+          <label for="searchInput">Buscar habilidades</label>
+          <input id="searchInput" type="text" placeholder="Digite código, tema, disciplina ou palavra-chave" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label for="yearFilter">Ano escolar</label>
+          <select id="yearFilter">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="componentFilter">Componente curricular</label>
+          <select id="componentFilter">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="field field-button">
+          <label class="sr-only" for="clearFilters">Limpar filtros</label>
+          <button id="clearFilters" class="button secondary" type="button">Limpar filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="control-bar" aria-label="Controles dos resultados">
+      <div id="resultsCount" class="results-count">Carregando dados...</div>
+      <button id="copyAllButton" class="button" type="button">Copiar todos os resultados</button>
+    </section>
+
+    <section class="content-layout">
+      <div class="results-column">
+        <div id="loadingMessage" class="status-message">Carregando habilidades da BNCC...</div>
+        <div id="noResultsMessage" class="status-message hidden">Nenhum resultado encontrado com os filtros atuais.</div>
+        <div id="results" class="results-list" aria-live="polite"></div>
+
+        <section class="ad-slot ad-bottom" aria-label="Espaço para anúncio inferior">
+          <p>Espaço para anúncio inferior</p>
+        </section>
+      </div>
+
+      <aside class="sidebar-column">
+        <section class="ad-slot ad-side" aria-label="Espaço para anúncio lateral">
+          <p>Espaço para anúncio lateral</p>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Achador BNCC • versão local e online em arquivo único.</p>
+    </div>
+  </footer>
+
+<script>
+const RAW_DATA = [{"codigo": "EF05CI01", "ano": "5º ano", "componente": "Ciências", "texto": "Explorar fenômenos da vida cotidiana que evidenciem propriedades físicas dos materiais – como densidade, condutibilidade térmica e elétrica, respostas a forças magnéticas, solubilidade, respostas a forças mecânicas (dureza, elasticidade etc.), entre outras."}, {"codigo": "EF05CI02", "ano": "5º ano", "componente": "Ciências", "texto": "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."}, {"codigo": "EF05CI03", "ano": "5º ano", "componente": "Ciências", "texto": "Selecionar argumentos que justifiquem a importância da cobertura vegetal para a manutenção do ciclo da água, a conservação dos solos, dos cursos de água e da qualidade do ar atmosférico."}, {"codigo": "EF05CI04", "ano": "5º ano", "componente": "Ciências", "texto": "Identificar os principais usos da água e de outros materiais nas atividades cotidianas para discutir e propor formas sustentáveis de utilização desses recursos."}, {"codigo": "EF05CI05", "ano": "5º ano", "componente": "Ciências", "texto": "Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana."}, {"codigo": "EF05CI06", "ano": "5º ano", "componente": "Ciências", "texto": "Selecionar argumentos que justifiquem por que os sistemas digestório e respiratório são considerados corresponsáveis pelo processo de nutrição do organismo, com base na identificação das funções desses sistemas."}, {"codigo": "EF05CI07", "ano": "5º ano", "componente": "Ciências", "texto": "Justificar a relação entre o funcionamento do sistema circulatório, a distribuição dos nutrientes pelo organismo e a eliminação dos resíduos produzidos."}, {"codigo": "EF05CI08", "ano": "5º ano", "componente": "Ciências", "texto": "Organizar um cardápio equilibrado com base nas características dos grupos alimentares (nutrientes e calorias) e nas necessidades individuais (atividades realizadas, idade, sexo etc.) para a manutenção da saúde do organismo."}, {"codigo": "EF05CI09", "ano": "5º ano", "componente": "Ciências", "texto": "Discutir a ocorrência de distúrbios nutricionais (como obesidade, subnutrição etc.) entre crianças e jovens a partir da análise de seus hábitos (tipos e quantidade de alimento ingerido, prática de atividade física etc.)."}, {"codigo": "EF05CI10", "ano": "5º ano", "componente": "Ciências", "texto": "Identificar algumas constelações no céu, com o apoio de recursos (como mapas celestes e aplicativos digitais, entre outros), e os períodos do ano em que elas são visíveis no início da noite."}, {"codigo": "EF05CI11", "ano": "5º ano", "componente": "Ciências", "texto": "Associar o movimento diário do Sol e das demais estrelas no céu ao movimento de rotação da Terra."}, {"codigo": "EF05CI12", "ano": "5º ano", "componente": "Ciências", "texto": "Concluir sobre a periodicidade das fases da Lua, com base na observação e no registro das formas aparentes da Lua no céu ao longo de, pelo menos, dois meses."}, {"codigo": "EF05CI13", "ano": "5º ano", "componente": "Ciências", "texto": "Projetar e construir dispositivos para observação à distância (luneta, periscópio etc.), para observação ampliada de objetos (lupas, microscópios) ou para registro de imagens (máquinas fotográficas) e discutir usos sociais desses dispositivos."}, {"codigo": "EF05HI01", "ano": "5º ano", "componente": "História", "texto": "Identificar os processos de formação das culturas e dos povos, relacionando-os com o espaço geográfico ocupado."}, {"codigo": "EF05HI02", "ano": "5º ano", "componente": "História", "texto": "Identificar os mecanismos de organização do poder político com vistas à compreensão da ideia de Estado e/ou de outras formas de ordenação social."}, {"codigo": "EF05HI03", "ano": "5º ano", "componente": "História", "texto": "Analisar o papel das culturas e das religiões na composição identitária dos povos antigos."}, {"codigo": "EF05HI04", "ano": "5º ano", "componente": "História", "texto": "Associar a noção de cidadania com os princípios de respeito à diversidade, à pluralidade e aos direitos humanos."}, {"codigo": "EF05HI05", "ano": "5º ano", "componente": "História", "texto": "Associar o conceito de cidadania à conquista de direitos dos povos e das sociedades, compreendendo-o como conquista histórica."}, {"codigo": "EF05HI06", "ano": "5º ano", "componente": "História", "texto": "Comparar o uso de diferentes linguagens e tecnologias no processo de comunicação e avaliar os significados sociais, políticos e culturais atribuídos a elas."}, {"codigo": "EF05HI07", "ano": "5º ano", "componente": "História", "texto": "Identificar os processos de produção, hierarquização e difusão dos marcos de memória e discutir a presença e/ou a ausência de diferentes grupos que compõem a sociedade na nomeação desses marcos de memória."}, {"codigo": "EF05HI08", "ano": "5º ano", "componente": "História", "texto": "Identificar formas de marcação da passagem do tempo em distintas sociedades, incluindo os povos indígenas originários e os povos africanos."}, {"codigo": "EF05HI09", "ano": "5º ano", "componente": "História", "texto": "Comparar pontos de vista sobre temas que impactam a vida cotidiana no tempo presente, por meio do acesso a diferentes fontes, incluindo orais."}, {"codigo": "EF05HI10", "ano": "5º ano", "componente": "História", "texto": "Inventariar os patrimônios materiais e imateriais da humanidade e analisar mudanças e permanências desses patrimônios ao longo do tempo."}, {"codigo": "EF05GE01", "ano": "5º ano", "componente": "Geografia", "texto": "Descrever e analisar dinâmicas populacionais na Unidade da Federação em que vive, estabelecendo relações entre migrações e condições de infraestrutura."}, {"codigo": "EF05GE02", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar diferenças étnico-raciais e étnico-culturais e desigualdades sociais entre grupos em diferentes territórios."}, {"codigo": "EF05GE03", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar as formas e funções das cidades e analisar as mudanças sociais, econômicas e ambientais provocadas pelo seu crescimento."}, {"codigo": "EF05GE04", "ano": "5º ano", "componente": "Geografia", "texto": "Reconhecer as características da cidade e analisar as interações entre a cidade e o campo e entre cidades na rede urbana."}, {"codigo": "EF05GE05", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar e comparar as mudanças dos tipos de trabalho e desenvolvimento tecnológico na agropecuária, na indústria, no comércio e nos serviços."}, {"codigo": "EF05GE06", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar e comparar transformações dos meios de transporte e de comunicação."}, {"codigo": "EF05GE07", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar os diferentes tipos de energia utilizados na produção industrial, agrícola e extrativa e no cotidiano das populações."}, {"codigo": "EF05GE08", "ano": "5º ano", "componente": "Geografia", "texto": "Analisar transformações de paisagens nas cidades, comparando sequência de fotografias, fotografias aéreas e imagens de satélite de épocas diferentes."}, {"codigo": "EF05GE09", "ano": "5º ano", "componente": "Geografia", "texto": "Estabelecer conexões e hierarquias entre diferentes cidades, utilizando mapas temáticos e representações gráficas."}, {"codigo": "EF05GE10", "ano": "5º ano", "componente": "Geografia", "texto": "Reconhecer e comparar atributos da qualidade ambiental e algumas formas de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.)."}, {"codigo": "EF05GE11", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar e descrever problemas ambientais que ocorrem no entorno da escola e da residência (lixões, indústrias poluentes, destruição do patrimônio histórico etc.), propondo soluções (inclusive tecnológicas) para esses problemas."}, {"codigo": "EF05GE12", "ano": "5º ano", "componente": "Geografia", "texto": "Identificar órgãos do poder público e canais de participação social responsáveis por buscar soluções para a melhoria da qualidade de vida (em áreas como meio ambiente, mobilidade, moradia e direito à cidade) e discutir as propostas implementadas por esses órgãos que afetam a comunidade em que vive."}, {"codigo": "EF05ER01", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Identificar e respeitar acontecimentos sagrados de diferentes culturas e tradições religiosas como recurso para preservar a memória."}, {"codigo": "EF05ER02", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Identificar mitos de criação em diferentes culturas e tradições religiosas."}, {"codigo": "EF05ER03", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Reconhecer funções e mensagens religiosas contidas nos mitos de criação (concepções de mundo, natureza, ser humano, divindades, vida e morte)."}, {"codigo": "EF05ER04", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Reconhecer a importância da tradição oral para preservar memórias e acontecimentos religiosos."}, {"codigo": "EF05ER05", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Identificar elementos da tradição oral nas culturas e religiosidades indígenas, afro-brasileiras, ciganas, entre outras."}, {"codigo": "EF05ER06", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Identificar o papel dos sábios e anciãos na comunicação e preservação da tradição oral."}, {"codigo": "EF05ER07", "ano": "5º ano", "componente": "Ensino Religioso", "texto": "Reconhecer, em textos orais, ensinamentos relacionados a modos de ser e viver."}, {"codigo": "EF35EF01", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Experimentar e fruir brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e recriá-los, valorizando a importância desse patrimônio histórico cultural."}, {"codigo": "EF35EF02", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Planejar e utilizar estratégias para possibilitar a participação segura de todos os alunos em brincadeiras e jogos populares do Brasil e de matriz indígena e africana."}, {"codigo": "EF35EF03", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Descrever, por meio de múltiplas linguagens (corporal, oral, escrita, audiovisual), as brincadeiras e os jogos populares do Brasil e de matriz indígena e africana, explicando suas características e a importância desse patrimônio histórico cultural na preservação das diferentes culturas."}, {"codigo": "EF35EF04", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Recriar, individual e coletivamente, e experimentar, na escola e fora dela, brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e demais práticas corporais tematizadas na escola, adequando-as aos espaços públicos disponíveis."}, {"codigo": "EF35EF05", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Experimentar e fruir diversos tipos de esportes de campo e taco, rede/parede e invasão, identificando seus elementos comuns e criando estratégias individuais e coletivas básicas para sua execução, prezando pelo trabalho coletivo e pelo protagonismo."}, {"codigo": "EF35EF06", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Diferenciar os conceitos de jogo e esporte, identificando as características que os constituem na contemporaneidade e suas manifestações (profissional e comunitária/lazer)."}, {"codigo": "EF35EF07", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Experimentar e fruir, de forma coletiva, combinações de diferentes elementos da ginástica geral (equilíbrios, saltos, giros, rotações, acrobacias, com e sem materiais), propondo coreografias com diferentes temas do cotidiano."}, {"codigo": "EF35EF08", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Planejar e utilizar estratégias para resolver desafios na execução de elementos básicos de apresentações coletivas de ginástica geral, reconhecendo as potencialidades e os limites do corpo e adotando procedimentos de segurança."}, {"codigo": "EF35EF09", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Experimentar, recriar e fruir danças populares do Brasil e do mundo e danças de matriz indígena e africana, valorizando e respeitando os diferentes sentidos e significados dessas danças em suas culturas de origem."}, {"codigo": "EF35EF10", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Comparar e identificar os elementos constitutivos comuns e diferentes (ritmo, espaço, gestos) em danças populares do Brasil e do mundo e danças de matriz indígena e africana."}, {"codigo": "EF35EF11", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Formular e utilizar estratégias para a execução de elementos constitutivos das danças populares do Brasil e do mundo, e das danças de matriz indígena e africana."}, {"codigo": "EF35EF12", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Identificar situações de injustiça e preconceito geradas e/ou presentes no contexto das danças e demais práticas corporais e discutir alternativas para superá-las."}, {"codigo": "EF35EF13", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Experimentar, fruir e recriar diferentes lutas presentes no contexto comunitário e regional e lutas de matriz indígena e africana."}, {"codigo": "EF35EF14", "ano": "3º ao 5º ano", "componente": "Educação Física", "texto": "Planejar e utilizar estratégias básicas das lutas do contexto comunitário e regional e lutas de matriz indígena e africana experimentadas, respeitando o colega como oponente e as normas de segurança."}, {"codigo": "EF15AR01", "ano": "1º ao 5º ano", "componente": "Arte", "texto": "Identificar e apreciar formas distintas das artes visuais tradicionais e contemporâneas, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório imagético."}, {"codigo": "EF15AR02", "ano": "1º ao 5º ano", "componente": "Arte", "texto": "Explorar e reconhecer elementos constitutivos das artes visuais (ponto, linha, forma, cor, espaço, movimento etc.)."}, {"codigo": "EF15AR03", "ano": "1º ao 5º ano", "componente": "Arte", "texto": "Reconhecer e analisar a influência de distintas matrizes estéticas e culturais das artes visuais nas manifestações artísticas das culturas locais, regionais e nacionais."}, {"codigo": "EF15AR04", "ano": "1º ao 5º ano", "componente": "Arte", "texto": "Experimentar diferentes formas de expressão artística (desenho, pintura, colagem, quadrinhos, dobradura, escultura, modelagem, instalação, vídeo, fotografia etc.), fazendo uso sustentável de materiais, instrumentos, recursos e técnicas convencionais e não convencionais."}, {"codigo": "EF05LP01", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares."}, {"codigo": "EF05LP02", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual."}, {"codigo": "EF05LP03", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Acentuar corretamente palavras oxítonas, paroxítonas e proparoxítonas."}, {"codigo": "EF05LP10", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."}, {"codigo": "EF05LP11", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."}, {"codigo": "EF05LP12", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto."}, {"codigo": "EF05LP13", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo."}, {"codigo": "EF05LP15", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto."}, {"codigo": "EF05LP22", "ano": "5º ano", "componente": "Língua Portuguesa", "texto": "Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas."}, {"codigo": "EF35LP12", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema."}, {"codigo": "EF35LP13", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema."}, {"codigo": "EF35LP17", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais."}, {"codigo": "EF35LP18", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário."}, {"codigo": "EF35LP21", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores."}, {"codigo": "EF35LP22", "ano": "3º ao 5º ano", "componente": "Língua Portuguesa", "texto": "Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto."}];
+
+const state = {
+  data: RAW_DATA,
+  filtered: [...RAW_DATA]
+};
+
+const elements = {
+  searchInput: document.getElementById('searchInput'),
+  yearFilter: document.getElementById('yearFilter'),
+  componentFilter: document.getElementById('componentFilter'),
+  clearFilters: document.getElementById('clearFilters'),
+  copyAllButton: document.getElementById('copyAllButton'),
+  resultsCount: document.getElementById('resultsCount'),
+  results: document.getElementById('results'),
+  loadingMessage: document.getElementById('loadingMessage'),
+  noResultsMessage: document.getElementById('noResultsMessage')
+};
+
+const synonymMap = {
+  leitura: ['ler', 'leitura', 'leitor', 'compreender', 'compreensao'],
+  ler: ['ler', 'leitura', 'leitor', 'compreender', 'compreensao'],
+  escrita: ['escrever', 'escrita', 'grafar', 'registrar', 'produzir'],
+  escrever: ['escrever', 'escrita', 'grafar', 'registrar', 'produzir'],
+  silaba: ['silaba', 'silabas', 'silabica', 'fonema', 'grafema'],
+  silabas: ['silaba', 'silabas', 'silabica', 'fonema', 'grafema'],
+  ortografia: ['ortografia', 'grafia', 'grafar', 'escrita'],
+  texto: ['texto', 'textos', 'genero', 'generos'],
+  noticias: ['noticia', 'noticias', 'reportagem', 'reportagens'],
+  noticia: ['noticia', 'noticias', 'reportagem', 'reportagens'],
+  cartaz: ['cartaz', 'cartazes'],
+  fabula: ['fabula', 'fabulas'],
+  gramatica: ['gramatica', 'gramaticais', 'linguisticas'],
+  interpretacao: ['interpretacao', 'compreender', 'compreensao', 'entender']
+};
+
+function normalizeText(value) {
+  return (value || '')
+    .toString()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
+function uniqueSorted(values) {
+  return Array.from(new Set(values)).sort(function (a, b) {
+    return a.localeCompare(b, 'pt-BR', { numeric: true });
+  });
+}
+
+function escapeHtml(value) {
+  return (value || '')
+    .toString()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function populateFilters(data) {
+  elements.yearFilter.innerHTML = '<option value="">Todos</option>';
+  elements.componentFilter.innerHTML = '<option value="">Todos</option>';
+
+  var years = uniqueSorted(data.map(function (item) { return item.ano; }));
+  var components = uniqueSorted(data.map(function (item) { return item.componente; }));
+
+  years.forEach(function (year) {
+    var option = document.createElement('option');
+    option.value = year;
+    option.textContent = year;
+    elements.yearFilter.appendChild(option);
+  });
+
+  components.forEach(function (component) {
+    var option = document.createElement('option');
+    option.value = component;
+    option.textContent = component;
+    elements.componentFilter.appendChild(option);
+  });
+}
+
+function buildSearchBlob(item) {
+  return normalizeText([item.codigo, item.ano, item.componente, item.texto].join(' '));
+}
+
+function expandTerm(term) {
+  var normalized = normalizeText(term);
+  var expanded = [normalized];
+
+  if (synonymMap[normalized]) {
+    expanded = expanded.concat(synonymMap[normalized]);
+  }
+
+  if (normalized.endsWith('s') && normalized.length > 3) {
+    expanded.push(normalized.slice(0, -1));
+  }
+
+  return Array.from(new Set(expanded.map(normalizeText).filter(Boolean)));
+}
+
+function buildQueryGroups(query) {
+  if (!query) return [];
+  return query.split(/\s+/).filter(Boolean).map(expandTerm);
+}
+
+function updateCount() {
+  var total = state.filtered.length;
+  var base = total === 1 ? '1 resultado encontrado' : total + ' resultados encontrados';
+  elements.resultsCount.textContent = base + ' • base atual: ' + state.data.length + ' habilidades';
+}
+
+function createCard(item) {
+  var safeItem = encodeURIComponent(JSON.stringify(item));
+  return (
+    '<article class="result-card">' +
+      '<div class="meta-row">' +
+        '<span class="badge code-badge">' + escapeHtml(item.codigo) + '</span>' +
+        '<span class="badge">' + escapeHtml(item.ano) + '</span>' +
+        '<span class="badge">' + escapeHtml(item.componente) + '</span>' +
+      '</div>' +
+      '<p class="skill-text">' + escapeHtml(item.texto) + '</p>' +
+      '<div class="card-actions">' +
+        '<button class="button secondary copy-code-button" type="button" data-item="' + safeItem + '">Copiar código</button>' +
+        '<button class="button copy-full-button" type="button" data-item="' + safeItem + '">Copiar código + habilidade</button>' +
+      '</div>' +
+    '</article>'
+  );
+}
+
+function renderResults() {
+  elements.loadingMessage.classList.add('hidden');
+  updateCount();
+
+  if (!state.filtered.length) {
+    elements.results.innerHTML = '';
+    elements.noResultsMessage.classList.remove('hidden');
+    return;
+  }
+
+  elements.noResultsMessage.classList.add('hidden');
+  elements.results.innerHTML = state.filtered.map(createCard).join('');
+}
+
+function filterData() {
+  var query = normalizeText(elements.searchInput.value);
+  var year = normalizeText(elements.yearFilter.value);
+  var component = normalizeText(elements.componentFilter.value);
+  var queryGroups = buildQueryGroups(query);
+
+  state.filtered = state.data.filter(function (item) {
+    var searchBlob = buildSearchBlob(item);
+
+    var matchesQuery = !queryGroups.length || queryGroups.every(function (group) {
+      return group.some(function (term) {
+        return searchBlob.indexOf(term) !== -1;
+      });
+    });
+
+    var matchesYear = !year || normalizeText(item.ano) === year;
+    var matchesComponent = !component || normalizeText(item.componente) === component;
+
+    return matchesQuery && matchesYear && matchesComponent;
+  });
+
+  renderResults();
+}
+
+function copyText(text, successLabel, button) {
+  navigator.clipboard.writeText(text).then(function () {
+    var original = button.textContent;
+    button.textContent = successLabel;
+    setTimeout(function () {
+      button.textContent = original;
+    }, 1600);
+  }).catch(function () {
+    alert('Não foi possível copiar automaticamente.');
+  });
+}
+
+function copyAllResults() {
+  if (!state.filtered.length) {
+    alert('Não há resultados filtrados para copiar.');
+    return;
+  }
+
+  var combined = state.filtered.map(function (item) {
+    return item.codigo + ' - ' + item.texto;
+  }).join('\n\n');
+
+  copyText(combined, 'Tudo copiado', elements.copyAllButton);
+}
+
+function handleResultButtons(event) {
+  var button = event.target.closest('button[data-item]');
+  if (!button) return;
+
+  var item = JSON.parse(decodeURIComponent(button.getAttribute('data-item')));
+
+  if (button.classList.contains('copy-code-button')) {
+    copyText(item.codigo, 'Código copiado', button);
+  }
+
+  if (button.classList.contains('copy-full-button')) {
+    copyText(item.codigo + ' - ' + item.texto, 'Conteúdo copiado', button);
+  }
+}
+
+function clearFilters() {
+  elements.searchInput.value = '';
+  elements.yearFilter.value = '';
+  elements.componentFilter.value = '';
+  filterData();
+}
+
+function init() {
+  populateFilters(state.data);
+  renderResults();
+}
+
+elements.searchInput.addEventListener('input', filterData);
+elements.yearFilter.addEventListener('change', filterData);
+elements.componentFilter.addEventListener('change', filterData);
+elements.clearFilters.addEventListener('click', clearFilters);
+elements.copyAllButton.addEventListener('click', copyAllResults);
+elements.results.addEventListener('click', handleResultButtons);
+
+init();
+</script>
+</body>
+</html>
