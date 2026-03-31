@@ -201,6 +201,91 @@ a situação comunicativa e o tema/assunto/ finalidade do texto.
 (EF35LP10) Identificar gêneros do discurso oral, utilizados em diferentes situações e contextos comunicativos, e suas características linguístico-expressivas e composicionais (conversação espontânea, conversação telefônica, entrevistas pessoais, entrevistas no rádio ou na TV, debate, noticiário de rádio e TV, narração de jogos esportivos no rádio e TV, aula, debate etc.).
 (EF35LP11) Ouvir gravações, canções, textos falados em diferentes variedades linguísticas, identificando características regionais, urbanas e rurais da fala e respeitando as diversas variedades linguísticas como características do uso da língua por diferentes grupos regionais ou diferentes culturas locais, rejeitando preconceitos linguísticos.
 
+(EF35LP12) Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema.
+(EF03LP01) Ler e
+escrever palavras com correspondências regulares contextuais entre grafemas e fonemas – c/qu; g/gu; r/rr; s/ss; o (e não u) e e (e não i) em sílaba átona em final de palavra – e com marcas de nasalidade (til, m, n).
+(EF04LP01) Grafar palavras utilizando regras de correspondência fonema-
+-grafema regulares diretas e contextuais.
+(EF05LP01) Grafar palavras utilizando regras de correspondência fonema-
+-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares.
+(EF03LP02) Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, VC, VV, CVV, identificando que existem vogais em todas as sílabas.
+(EF04LP02) Ler e escrever, corretamente, palavras com sílabas VV e CVV em casos nos quais a combinação VV (ditongo) é reduzida na língua oral (ai, ei, ou).
+
+
+(EF03LP03) Ler e escrever corretamente palavras com os dígrafos lh, nh, ch.
+
+
+
+
+(EF35LP13) Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema.
+
+
+(EF04LP03) Localizar palavras no dicionário para esclarecer significados, reconhecendo o significado mais plausível para o contexto que deu origem à consulta.
+(EF05LP02) Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual.
+
+(EF03LP04) Usar acento gráfico (agudo ou circunflexo) em monossílabos tônicos terminados em a, e, o e em palavras oxítonas terminadas em a, e, o, seguidas ou não de s.
+(EF04LP04) Usar acento gráfico (agudo ou circunflexo) em paroxítonas terminadas em
+-i(s), -l, -r, -ão(s).
+(EF05LP03) Acentuar corretamente palavras oxítonas, paroxítonas e proparoxítonas.
+(EF03LP05) Identificar o número de sílabas de
+palavras, classificando-as em monossílabas, dissílabas, trissílabas e polissílabas.
+
+
+
+
+(EF03LP06) Identificar a sílaba tônica em palavras, classificando-as em oxítonas, paroxítonas e proparoxítonas.
+
+
+
+
+(EF03LP07) Identificar a função na leitura e usar na escrita ponto final, ponto de interrogação, ponto de exclamação e, em diálogos
+(discurso direto), dois-pontos e travessão.
+(EF04LP05) Identificar a função na leitura e usar, adequadamente, na escrita ponto final, de interrogação, de exclamação, dois-pontos e travessão em diálogos (discurso direto), vírgula em
+enumerações e em separação de vocativo e de aposto.
+(EF05LP04) Diferenciar, na leitura de textos, vírgula, ponto e vírgula, dois-pontos e reconhecer, na leitura de
+textos, o efeito de sentido que decorre do uso de reticências, aspas, parênteses.
+
+
+
+
+(EF05LP05) Identificar a expressão de presente,
+passado e futuro em tempos verbais do modo indicativo.
+(EF03LP08) Identificar e diferenciar, em textos,
+substantivos e verbos e suas funções na oração: agente, ação, objeto da ação.
+(EF04LP06) Identificar em textos e usar na produção textual a concordância entre substantivo ou pronome pessoal e verbo (concordância verbal).
+(EF05LP06) Flexionar, adequadamente, na escrita e na oralidade, os verbos em
+concordância com pronomes pessoais/nomes sujeitos da oração.
+
+
+
+(EF03LP09) Identificar, em textos, adjetivos e sua função de atribuição de propriedades aos substantivos.
+(EF04LP07) Identificar em textos e usar na produção textual a concordância entre artigo, substantivo e adjetivo (concordância no grupo nominal).
+
+
+
+
+(EF35LP14) Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico.
+
+
+
+
+(EF05LP07) Identificar, em textos, o uso de conjunções e a relação que estabelecem entre partes do texto: adição, oposição, tempo, causa, condição, finalidade.
+(EF03LP10) Reconhecer prefixos e sufixos produtivos na formação de palavras derivadas de substantivos, de adjetivos e de verbos, utilizando-os para compreender palavras e para formar novas palavras.
+(EF04LP08) Reconhecer e grafar, corretamente, palavras derivadas com os sufixos
+-agem, -oso, -eza, -izar/-isar (regulares morfológicas).
+(EF05LP08) Diferenciar palavras primitivas, derivadas e compostas, e derivadas por adição de prefixo e de sufixo.
+
+
+
+
+(EF03LP11) Ler e compreender, com autonomia, textos injuntivos instrucionais (receitas, instruções de montagem etc.), com a estrutura própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e mesclando palavras, imagens e recursos gráfico- visuais, considerando a situação comunicativa e o tema/assunto do texto.
+(EF04LP09) Ler e
+compreender, com autonomia, boletos, faturas e carnês, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções
+do gênero (campos, itens elencados, medidas de consumo, código de barras) e considerando a situação comunicativa e a finalidade do texto.
+(EF05LP09) Ler e
+compreender, com autonomia, textos instrucional de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando
+a situação comunicativa e a finalidade do texto.
+
 
 
 
