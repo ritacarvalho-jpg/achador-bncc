@@ -2,7 +2,9 @@ BASE BRUTA DA BNCC
 (EF15LP01) Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam.
 
 (EF15LP02) Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas.
+
 (EF15LP03) Localizar informações explícitas em textos.
+
 (EF15LP04) Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos.
 
 (EF15LP05) Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas.
@@ -22,6 +24,7 @@ BASE BRUTA DA BNCC
 (EF15LP12) Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz.
 
 (EF15LP13) Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.).
+
 (EF15LP14) Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias).
 
 
@@ -45,32 +48,69 @@ BASE BRUTA DA BNCC
 
 
 (EF01LP03) Observar escritas convencionais, comparando-as às suas produções escritas, percebendo semelhanças e diferenças.
-(EF02LP01) Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em
-substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.
+(EF02LP01) Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.
+
 (EF12LP03) Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação.
+
 (EF01LP04) Distinguir as letras do alfabeto de outros sinais gráficos.
+
 (EF01LP05) Reconhecer o sistema de escrita alfabética como representação dos sons da fala.
+
 (EF01LP06) Segmentar oralmente palavras em sílabas.
+
 (EF02LP02) Segmentar palavras em sílabas e remover e substituir sílabas iniciais, mediais ou finais para criar novas palavras.
+
 (EF01LP07) Identificar fonemas e sua representação por letras.
+
 (EF02LP03) Ler e escrever palavras com correspondências regulares diretas entre letras e fonemas (f, v, t, d, p, b) e correspondências regulares contextuais (c e q; e e o, em posição átona em final de palavra).
+
 (EF01LP08) Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita.
+
 (EF02LP04) Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, identificando que existem vogais em todas as sílabas.
+
 (EF01LP09) Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas iniciais.
+
 (EF02LP05) Ler e escrever corretamente palavras com marcas de nasalidade (til, m, n).
+
 (EF01LP10) Nomear as letras do alfabeto e recitá-lo na ordem das letras.
+
 (EF02LP06) Perceber o princípio acrofônico que opera nos nomes das letras do alfabeto.
+
 (EF01LP11) Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas.
+
 (EF02LP07) Escrever palavras, frases, textos curtos nas formas imprensa e cursiva.
+
 (EF01LP12) Reconhecer a separação das palavras, na escrita, por espaços em branco.
+
 (EF02LP08) Segmentar corretamente as palavras ao escrever frases e textos.
+
 (EF01LP13) Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas mediais e finais.
+
 (EF01LP14) Identificar outros sinais no texto além das letras, como pontos finais, de interrogação e exclamação e seus efeitos na entonação.
+
 (EF02LP09) Usar adequadamente ponto final, ponto de interrogação e ponto de exclamação.
+
 (EF01LP15) Agrupar palavras pelo critério de aproximação de significado (sinonímia) e
 separar palavras pelo critério de oposição de significado (antonímia).
+
 (EF02LP10) Identificar sinônimos de palavras de texto lido, determinando a diferença de sentido entre eles, e formar antônimos de palavras encontradas em texto lido pelo acréscimo do prefixo de negação in-/im-.
+
 (EF02LP11) Formar o aumentativo e o diminutivo de palavras com os sufixos -ão e
 -inho/-zinho.
+(EF12LP04) Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.
+(EF01LP16) Ler e compreender, em colaboração com os colegas e com a ajuda do professor, quadras, quadrinhas, parlendas,
+trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.
+(EF02LP12) Ler e compreender com certa autonomia cantigas, letras de canção, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.
+(EF01LP17) Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem
+e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando
+a situação comunicativa e o tema/assunto/ finalidade do texto.
+(EF02LP13) Planejar e produzir bilhetes e cartas, em meio impresso e/ou digital, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.
+(EF01LP18) Registrar, em colaboração com os colegas e com a ajuda do professor, cantigas, quadras, quadrinhas, parlendas, trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.
+(EF02LP14) Planejar e produzir pequenos relatos de observação de processos, de fatos, de experiências pessoais, mantendo as características do gênero, considerando a situação comunicativa e o tema/assunto do texto.
+(EF12LP05) Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, (re)contagens de histórias, poemas e outros textos versificados (letras de canção, quadrinhas, cordel), poemas visuais, tiras e histórias em quadrinhos, dentre outros gêneros do campo artístico-literário, considerando a situação comunicativa e a finalidade do texto.
+(EF12LP06) Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, recados, avisos, convites, receitas, instruções de montagem, dentre outros gêneros do campo da vida cotidiana, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.
+(EF01LP19) Recitar parlendas, quadras, quadrinhas, trava-línguas, com entonação adequada e observando as rimas.
+(EF02LP15) Cantar cantigas e canções, obedecendo ao ritmo e à melodia.
+
 
 
